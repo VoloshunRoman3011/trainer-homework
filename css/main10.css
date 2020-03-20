@@ -9,10 +9,6 @@
     font-weight: 500;
     font-style: normal;
 }
-.top-header{
-    padding-top: 24px;
-    background-color: rgba(21, 5, 7, 0.6);
-}
 *{
     padding: 0;
     margin: 0;
@@ -25,6 +21,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+/*************************************HEADER***************************************/
 header{
     padding-bottom: 12px;
     background-image: url("../img/Photo.jpg");
@@ -41,11 +38,15 @@ header{
     display: block;
     clear: both;
 }
-.logo{
+.top-header{
+    padding-top: 24px;
+    background-color: rgba(21, 5, 7, 0.6);
+}
+header .logo{
     float: left;
     margin-bottom: 20px;
 }
-.btn{
+header .btn{
     float: right;
     min-width: 171px;
     font-family: 'Metropolis';
@@ -173,6 +174,8 @@ h1:after{
     max-width: 1170px;
     margin:20px auto 0;
 }
+/*************************************HEADER***************************************/
+
 section{
     background: #000;
 }
@@ -193,6 +196,7 @@ section .size_bar{
 section .nav_bar ul li{
     padding-left: 20px;
     margin-bottom: 5px;
+    list-style: none;
 }
 section .nav_bar ul li:last-of-type{
     margin-bottom: 50px;
