@@ -1,6 +1,7 @@
 @media only screen and (max-width: 1024px) {}
 @media only screen and (max-width: 992px) {}
 @media only screen and (max-width: 768px) {
+    /*************************************HEADER***************************************/
     header .logo{
         float: none;
         display: block;
@@ -22,13 +23,88 @@
     header .top-header{
         padding: 24px 15px;
     }
-    header nav ul li{
+    header nav{
         float: none;
     }
+    header nav ul li{
+        float: none;
+        margin-right: 0;
+        text-align: center;
+        padding: 0;
+    }
+    header nav ul li:first-of-type{
+        padding-top: 20px;
+    }
     header .media768{
-        width: 30px;
+        display: none;
+    }
+    /*************************************HEADER***************************************/
+
+    /*****************************SECTION*********************************************/
+    section .size_bar{
+        width: 100%;
+        padding: 20px 15px;
+    }
+    section .nav_bar{
+        max-width: 250px;
+        margin: auto;
+    }
+    section form{
+        width: 100%;
+    }
+    section .content{
+        float: none;
+        width: 100%;
+    }
+    section .content h3{
+        width: 100%;
+        text-align: center;
+    }
+    section .nav_content{
+        float: none;
+        max-width: 564px;
+        margin: 10px auto 0;
+    }
+    section .left{
+        float: none;
+    }
+    section .right{
+        float: none;
+    }
+    section .borser .right{
         float: right;
     }
+    section .borser{
+        max-width: 430px;
+        margin: auto;
+    }
+    /*****************************SECTION*********************************************/
+
+    /**********************Footer****************************************************/
+    footer{
+        padding-bottom: 0;
+    }
+    .fot-logo{
+        float: none;
+        margin:0 auto 30px;
+    }
+    .fot-bar{
+        float: none;
+        margin: 10px 20px 0;
+    }
+    .fot-bar ul li{
+        text-align: center;
+    }
+    .media_right{
+        float: right;
+    }
+    .media_left{
+        float: left;
+    }
+    .fot-bagraunt{
+        padding: 50px 15px 63px;
+    }
+    /**********************Footer****************************************************/
 }
 @media only screen and (max-width: 414px) {}
 @media only screen and (max-width: 375px) {}
