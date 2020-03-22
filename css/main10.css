@@ -313,7 +313,7 @@ section .blabla{
 section .WORKOUT_NAME{
     max-width: 430px;
     position: relative;
-    height: 242px;
+    /*height: 242px;*/
 }
 section .absolut{
     position: absolute;

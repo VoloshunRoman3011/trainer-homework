@@ -8,9 +8,7 @@
         max-width: 351px;
         margin: 0 auto 20px;
     }
-    header .logo img{
 
-    }
     header .btn{
         float: none;
         min-width: 100%;
@@ -108,5 +106,122 @@
 }
 @media only screen and (max-width: 414px) {}
 @media only screen and (max-width: 375px) {}
-@media only screen and (max-width: 360px) {}
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 360px) {
+    header .logo{
+        width: 76px;
+        overflow: hidden;
+    }
+    /*************************************HEADER***************************************/
+
+    /*****************************SECTION*********************************************/
+    section .content h3{
+        font-size: 43px;
+        margin-top: 15px;
+    }
+    section .nav_content{
+        width: 170px;
+    }
+    section .nav_content ul li{
+        margin: 10px 0;
+    }
+    section h4{
+        float: none;
+        text-align: center;
+        padding: 10px 0 0;
+    }
+
+    section .borser .right{
+        float: none;
+        text-align: center;
+        padding: 10px 0;
+    }
+    /*****************************SECTION*********************************************/
+
+    /**********************Footer****************************************************/
+    footer{
+        padding-top: 20px;
+    }
+    footer form{
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+    footer input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    footer .btn-footer{
+        float: none;
+        margin-left: 0;
+        width: 100%;
+    }
+    footer .media_left{
+        float: none;
+    }
+    footer .media_right{
+        float: none;
+    }
+    footer .fot-bagraunt{
+        padding-bottom: 20px;
+    }
+    /**********************Footer****************************************************/
+}
+@media only screen and (max-width: 320px) {
+    /*************************************HEADER***************************************/
+    header .logo{
+        width: 76px;
+        overflow: hidden;
+    }
+    /*************************************HEADER***************************************/
+
+    /*****************************SECTION*********************************************/
+    section .content h3{
+        font-size: 43px;
+        margin-top: 15px;
+    }
+    section .nav_content{
+        width: 170px;
+    }
+    section .nav_content ul li{
+        margin: 10px 0;
+    }
+    section h4{
+        float: none;
+        text-align: center;
+        padding: 10px 0 0;
+    }
+
+    section .borser .right{
+        float: none;
+        text-align: center;
+        padding: 10px 0;
+    }
+    /*****************************SECTION*********************************************/
+
+    /**********************Footer****************************************************/
+    footer{
+        padding-top: 20px;
+    }
+    footer form{
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+    footer input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    footer .btn-footer{
+        float: none;
+        margin-left: 0;
+        width: 100%;
+    }
+    footer .media_left{
+        float: none;
+    }
+    footer .media_right{
+        float: none;
+    }
+    footer .fot-bagraunt{
+        padding-bottom: 20px;
+    }
+    /**********************Footer****************************************************/
+}
